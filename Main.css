@@ -1,0 +1,21 @@
+.collapse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .form-label {
+    margin-right: 100px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .collapse {
+      display: inline;
+    }
+  }
